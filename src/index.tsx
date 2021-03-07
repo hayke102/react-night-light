@@ -99,7 +99,6 @@ export const ExampleComponent = ({ text }: Props) => {
         Events.on(engine, "afterUpdate", function () {
             if (pullRope.bodies[0].position.y > 120) {
                 debouncedDarkModeToggle();
-                // setIsDarkMode((current) => !current);
                 console.log(pullRope.bodies[0].position);
             }
         });
