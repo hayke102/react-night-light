@@ -61,8 +61,10 @@
     "dist"
   ],
   "dependencies": {
+    "@types/debounce": "^1.2.0",
     "@types/matter-js": "^0.14.10",
     "babel-loader": "^8.2.2",
+    "debounce": "^1.2.0",
     "matter-js": "^0.16.1",
     "poly-decomp": "^0.3.0"
   }
